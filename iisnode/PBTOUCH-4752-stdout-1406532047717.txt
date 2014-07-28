@@ -1,0 +1,22 @@
+Express server listening on port \\.\pipe\7f17758d-c287-428c-a76b-eb21e094bd12
+[90mGET / [32m200 [90m47ms - 712[0m
+[90mGET / [32m200 [90m9ms - 712[0m
+[90mGET /immagini [32m200 [90m13ms - 1.05kb[0m
+[90mGET /eventi [32m200 [90m9ms - 997[0m
+[90mGET /tag [32m200 [90m27ms - 1.02kb[0m
+[90mGET /eventi [32m200 [90m5ms - 997[0m
+[90mGET /immagini [36m304 [90m4ms[0m
+[90mGET / [32m200 [90m4ms - 712[0m
+[90mGET /immagini [36m304 [90m5ms[0m
+[90mGET /eventi [32m200 [90m6ms - 997[0m
+[90mGET /tag [36m304 [90m5ms[0m
+[90mGET /eventi [32m200 [90m4ms - 997[0m
+[90mGET /eventi [32m200 [90m3ms - 997[0m
+[90mGET /immagini [36m304 [90m5ms[0m
+[90mGET / [32m200 [90m2ms - 712[0m
+[90mGET /tag [36m304 [90m4ms[0m
+[90mGET /eventi [32m200 [90m4ms - 997[0m
+[90mGET /tag [36m304 [90m4ms[0m
+[90mGET / [32m200 [90m2ms - 712[0m
+[90mGET /immagini [36m304 [90m3ms[0m
+[90mGET / [32m200 [90m2ms - 712[0m

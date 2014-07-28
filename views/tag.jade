@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  script(src='/javascripts/tag.js')
+  div(class="corp")
+    h3 Tag
+    #addTag
+        fieldset
+            input#inputNometag(type='text', name='nome_tag', placeholder='Nome Tag')
+            &nbsp;
+            button#btnAddTag(type='submit') Aggiungi Tag
+
+  div(class="outbox")
+    h3 Lista Tags
+    #tagList
+        table
+            thead
+              tr
+                th Id
+                th Nome
+            tbody
+                each row in rows
+                    tr
+                        td #{row.id_tag} 
+                        td #{row.nome_tag}      

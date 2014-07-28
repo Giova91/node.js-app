@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+  div(class="corp")
+    h3 Immagini
+    fieldset
+        input(type='text', placeholder='Nome Immagine')
+        &nbsp;
+        input(type='text', placeholder='Data')
+        &nbsp;
+        button Aggiungi Immagine
+
+  div(class="outbox")
+    h3 Lista Immagini
+    #imgList
+        table
+            thead
+                tr
+                    th Id
+                    th Nome
+                    th Data
+            tbody
+                each row in rows
+                    tr
+                        td #{row.id_foto} 
+                        td #{row.nome_foto}
+                        td #{row.data_scatto}

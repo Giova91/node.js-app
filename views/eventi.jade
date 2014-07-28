@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+  div(class="corp")
+    h3 Eventi
+    fieldset
+        input(type='text', placeholder='Nome Evento')
+        &nbsp;
+        input(type='text', placeholder='Luogo Evento')
+        &nbsp;
+        button Aggiungi Evento
+
+  div(class="outbox")
+    h3 Lista Eventi
+    #eventList
+        table
+            thead
+                tr
+                    th Id
+                    th Nome
+                    th Luogo
+            tbody
+                each row in rows
+                    tr
+                        td #{row.id_evento} 
+                        td #{row.nome_evento}
+                        td #{row.luogo_evento} 
