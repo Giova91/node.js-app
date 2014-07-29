@@ -10,22 +10,15 @@ $(document).ready(function () {
         });
 
         if (errorCount === 0) {
-            var newTag = {
-                'nome_tag': $('#addTag fieldset input#inputNometag').val()
-            };
+            var newTag = { 'nome_tag': $('#addTag fieldset input#inputNometag').val() };
 
             $.ajax({
                 type: 'POST',
                 data: newTag,
                 datatype: 'JSON'
-            }).done(function (response) {
-                if (response.msg === '') {
-                    $('#addTag fieldset input').val('');
-                }
-                else {
-                    alert('Error: ' + response.msg);
-                }
             });
+            
+            window.location.reload();
         }
         else {
             alert('Completa tutti i campi!');
